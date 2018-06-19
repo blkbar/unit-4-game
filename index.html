@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Crystals Collector Game</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="top"><strong>CrystalsCollector!</strong></h1>
+        <div id="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <br>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific number of points to your total score. </p>
+            <br>
+            <p>You win the game by matching your total score to the random number; you lose the game if your total score goes above the random number.</p>
+            <br>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <br>
+            <p>Each time the game starts, the game will change the value of each crystal.</p>
+        </div>
+        <div id="match-me">
+            
+        </div>
+        <div id="tally">
+            <p id="wins"></p>
+            <br>
+            <p id="losses"></p>
+        </div>
+        <br>
+        <div id="play-again">
+            <template>
+                <p>Click here to play another game.</p>
+            </template>
+        </div>
+        <br>
+        <div id="diamond">
+            <img id="diamond-pic" src="assets/images/diamond.jpg" width="30px" height="30px"  alt="Diamond">
+        </div>
+        <div id="ruby">
+                <img id="ruby-pic" src="assets/images/ruby.jpg" width="30px" height="30px"  alt="Ruby">
+        </div>
+        <div id="emerald">
+                <img id="emerald-pic" src="assets/images/emerald.jpg" width="30px" height="30px"  alt="Emerald">
+        </div>
+        <div id="topaz">
+                <img id="topaz-pic" src="assets/images/topaz.jpg" width="30px" height="30px"  alt="topaz">            
+        </div>
+        <div id="score-label">
+            Your total score is:
+        </div>
+        <div id="score">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

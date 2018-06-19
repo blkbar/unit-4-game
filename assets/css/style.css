@@ -1,0 +1,99 @@
+#container {
+    margin: 5px;
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    background-color: #90bbd4; 
+}
+
+#top {
+    display: block;
+    width: 115px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: brown;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#instructions {
+    margin: 5px;
+    width: 310px;
+    color: green;
+    background-color: beige;
+}
+
+#match-me {
+    margin: 5px 1px 5px 5px;
+    height: 80px;
+    width: 125px;
+    background-color: #90d4b1;
+    color: black;
+    float: left;
+    clear: both;
+}
+
+#tally {
+    margin: 5px;
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    float: left;  
+}
+
+#play-again {
+    margin-left: 20px;
+    border: 5px solid red;
+    width: 60px;
+    height: 20px;
+    /* background-color: red; */
+    color: white;
+    /* visibility: hidden; */
+    /* float: left; */
+}
+#diamond {
+    clear: both;
+    margin: 5px;
+    margin-right: 1px;
+    /* float: left; */
+}
+
+#ruby {
+    position: relative;
+    top: -38px;
+    left: 40px;
+}
+
+#emerald {
+    position: relative;
+    top: -70px;
+    left: 75px;
+}
+
+#topaz {
+    position: relative;
+    top: -103px;
+    left: 110px;
+}
+
+#score-label {
+    position: relative;
+    top: -105px;
+    margin: 5px;
+    width: 125px;
+    color: white;
+    background-color: teal;
+}
+#score {
+    position: relative;
+    top: -105px;
+    margin: 5px;
+    height: 80px;
+    width: 125px;
+    color: white;
+    background-color: teal;
+}
